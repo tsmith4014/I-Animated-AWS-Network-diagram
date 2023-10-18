@@ -2,18 +2,18 @@
 
 ## Table of Contents 📚
 
-- [Introduction](#introduction) 📖
-- [Live Demo](#live-demo) 🎥
-- [Components](#components) 🛠️
-  - [Route 53](#route-53) 🌐
-  - [AWS Shield](#aws-shield) 🛡️
-  - [AWS WAF](#aws-waf) 🚫
-  - [Application Load Balancer (ELB)](#application-load-balancer-elb) ⚖️
-  - [EC2 Instances](#ec2-instances) 🖥️
-  - [CloudFront](#cloudfront) ☁️
-  - [Network ACL](#network-acl) 🔒
-  - [VPC and Subnets](#vpc-and-subnets) 🌐
-- [Data Flow](#data-flow) 📈
+- Introduction 📖
+- Live Demo 🎥
+- Components 🛠️
+  - Route 53 🌐
+  - AWS Shield 🛡️
+  - AWS WAF 🚫
+  - Application Load Balancer (ELB) ⚖️
+  - EC2 Instances 🖥️
+  - CloudFront ☁️
+  - Network ACL 🔒
+  - VPC and Subnets 🌐
+- Data Flow 📈
 
 ## Introduction 📖
 
@@ -73,4 +73,5 @@ Interested in seeing this AWS Network Architecture in action? You can view the l
 2. The filtered traffic then hits the **Application ELB**.
 3. **Application ELB** routes the traffic to the appropriate **EC2 instances**.
 4. **CloudFront** can also route cached content directly to the ELB.
+
 
